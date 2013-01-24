@@ -10,6 +10,9 @@ namespace MonoDroid.VerticalSeekbar
     public delegate void VerticalSeekBarStartTrackingTouchEventHandler(object sender, SeekBar.StartTrackingTouchEventArgs args);
     public delegate void VerticalSeekBarStopTrackingTouchEventHandler(object sender, SeekBar.StopTrackingTouchEventArgs args);
 
+    /// <summary>
+    /// Loosely based on implementation from http://stackoverflow.com/questions/4892179/how-can-i-get-a-working-vertical-seekbar-in-android
+    /// </summary>
     public class VerticalSeekBar : SeekBar
     {
         #region ctor
