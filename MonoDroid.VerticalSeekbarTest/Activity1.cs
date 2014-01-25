@@ -3,7 +3,7 @@ using Android.Widget;
 using Android.OS;
 using MonoDroid.VerticalSeekbar;
 
-namespace MonoDroid.VerticalSeekBarTest
+namespace MonoDroid.VerticalSeekbarTest
 {
     [Activity(Label = "VerticalSeekbar Test", MainLauncher = true, Icon = "@drawable/icon")]
     public class Activity1 : Activity
